@@ -239,8 +239,9 @@ jobs:
 
 -------------------
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://telegra.ph/file/25b60ba1474cffb21969c.jpg'/></a>
+
+<a><img src='https://telegra.ph/file/25b60ba1474cffb21969c.jpg'/></a>
 
 -----------
 
