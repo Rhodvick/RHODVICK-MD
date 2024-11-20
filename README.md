@@ -1,7 +1,7 @@
 ---------
 
 ### <br>  ❖ ✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳 ❖
-🔰 **`THE WORLD BEST WHATSAPP BOT CREATED BY 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 𝚃𝙴𝙲𝙷 432`** 🔰
+🔰 **`THE WORLD BEST WHATSAPP BOT CREATED BY 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 𝚃𝙴𝙲𝙷`** 🔰
 
 ----------
 
@@ -15,7 +15,7 @@
 ------------
 
 <img align="center" height="auto"
-src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%20WORLD%20BEST%20WHATSAPP%20BOT%★%20CREATED%20BY%20𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺%20𝚃𝙴𝙲𝙷%20𝙼𝙴𝙳𝙸𝙰%20KING%20OF%20KINGS%20OWNER%20𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺%20𝚃𝙴𝙲𝙷%20AND%20SOBIA%20BUTT♥️&image=https://telegra.ph/file/25b60ba1474cffb21969c.jpg?v=4&backgroundColor=%23ecf0f1&github=Rhodvick&pattern=leaf&colorPattern=%23eaeaea"/>
+src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%20WORLD%20BEST%20WHATSAPP%20BOT%★%20CREATED%20BY%20𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺%20𝚃𝙴𝙲𝙷%20𝙼𝙴𝙳𝙸𝙰%20KING%20OF%20KINGS%20OWNER%20𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺%20𝚃𝙴𝙲𝙷%20AND%20ACCIDENTAL%20GENIUSES♥️&image=https://telegra.ph/file/25b60ba1474cffb21969c.jpg?v=4&backgroundColor=%23ecf0f1&github=Rhodvick&pattern=leaf&colorPattern=%23eaeaea"/>
 
 <br>
 
@@ -38,7 +38,7 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
 -----------
 ----------
 
-<div align="center"><br> <img src="https://profile-counter.glitch.me/RHODVICK-MD/count.svg" /><br>RHODVICK-MD-V2</div>
+<div align="center"><br> <img src="https://profile-counter.glitch.me/RHODVICK-MD/count.svg" /><br>RHODVICK-MD</div>
 
 ------------
 
@@ -81,29 +81,29 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
 
 ### <br> ❖ FOR SUPPORT ❖
 
-**`➩ HII DEARS FRIENDS IF YOU WANT ANY HELP SO YOU CAN CONTACT↘︎ WITH ME WIA WHATSAPP ITS ME 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 𝚃𝙴𝙲𝙷⁴³²࿐➺`**
+**`➩ HII DEAR FRIENDS IF YOU WANT ANY HELP YOU CAN CONTACT↘︎ ME VIA WHATSAPP, ITS ME 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 𝚃𝙴𝙲𝙷࿐➺`**
 
 -------
 
 <p align="center">
-  <a href="https://wa.me/+923096287432?text=*ʜɪɪ+sɪʟᴇɴᴛʟᴏᴠᴇʀ--+ɪ+ɴᴇᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ+ʀᴇᴘᴏ!!*" target="_blank">
+  <a href="https://wa.me/+254700150919?text=*ʜɪɪ+𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺±𝚃𝙴𝙲𝙷--+ɪ+ɴᴇᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳+ʀᴇᴘᴏ!!*" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 -----------    
 
-`✠ IF YOU WANT MORE ABOUT RHODVICK-MD WHATSAPP BOT :-NEW UPDATED NEW CMDS SO JOIN OUR WHATSAPP GROUP FOR MORE INFORMATION CLICK THIS RED BUTTON 🔳 AND JOIN THE GROUP ✠`
+`✠ IF YOU WANT MORE INFORMATION ABOUT RHODVICK-MD WHATSAPP BOT :-NEW CMDS ADDED,  JOIN OUR WHATSAPP CHANNEL FOR MORE INFORMATION . CLICK THIS RED BUTTON 🔳 AND JOIN THE GROUP ✠`
 
 ---------
 
-<a href="https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ᴡʜᴀᴛsᴀᴘᴘ%20ᴄʜᴀɴɴᴇʟ-red" alt="🔰 ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
+<a href="https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ᴡʜᴀᴛsᴀᴘᴘ%20ᴄʜᴀɴɴᴇʟ-red" alt="🔰 ᴊᴏɪɴ ᴍʏ ᴡʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
 
 -----------
 
-`✠ IF YOU WANT MORE ABOUT RHODVICK-MD WHATSAPP BOT :-NEW UPDATED NEW CMDS SO SUBSCRIBE OUR YOUTUBE CHANNEL FOR MORE INFORMATION CLICK THIS BLUE BUTTON 🔳 AND JOIN THE YOUTUBE CHANNEL ✠`
+`✠ IF YOU WANT MORE INFORMATION ABOUT RHODVICK-MD WHATSAPP BOT :-ADDED NEW CMDS, PLEASE SUBSCRIBE TO OUR YOUTUBE CHANNEL FOR MORE INFORMATION, CLICK THIS BLUE BUTTON 🔳 AND JOIN THE YOUTUBE CHANNEL ✠`
 
 ----------
 
-<a href="https://youtube.com/@Rhodvick?si=F1IIc1As0gu3ijqk"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ʏᴏᴜᴛᴜʙᴇ%20ᴄʜᴀɴɴᴇʟ-blue" alt="🔰 ᴊᴏɪɴ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
+<a href="https://www.youtube.com/@Rhodvick"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ʏᴏᴜᴛᴜʙᴇ%20ᴄʜᴀɴɴᴇʟ-blue" alt="🔰 ᴊᴏɪɴ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs 🔰" width="300"></a>
 
 --------------
 
@@ -118,7 +118,7 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
 -------------
 
 <p align="center">
-   <a href="https://youtu.be/koyMJgbhJSg?si=x-bXqVOajxOIUj80"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="105">
+   <a href="https://www.youtube.com/@Rhodvick"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="105">
     </a>
 </p>
 
@@ -128,7 +128,7 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
 ### <br>    ❖ SESSION_ID ❖
 
 
-`✠ IF YOU DON'T HAVE YOUR SESSION_ID SO U CAN GET IT CLICK ON SESSION_ID BUTTON AND PASTE YOUR NUMBER With COUNTRY CODE EXAMPLE:+92309XXXX THEN YOU CAN GET YOUR SESSION_ID ✠`
+`✠ IF YOU DON'T HAVE YOUR SESSION_ID SO U CAN GET IT HERE, CLICK ON SESSION_ID BUTTON AND PASTE YOUR NUMBER With COUNTRY CODE EXAMPLE:+25470015XXXX THEN YOU CAN GET YOUR SESSION_ID ✠`
 
 ----------
 
@@ -140,7 +140,7 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
  
 ### <br>   ❖ DEPLOY_HEROKU ❖
 
-`✠ IF YOU WANT TO DEPLOY RHODVICK-MD BOT ON HEROKU SO FIRST GET YOUR SESSION_ID THEN CLICK THIS BLUE BUTTON [DEPLOY TO HEROKU] THEN YOU CAN ENJOY THIS BOT ✠`
+`✠ IF YOU WANT TO DEPLOY RHODVICK-MD BOT ON HEROKU, FIRST GET YOUR SESSION_ID THEN CLICK THIS BLUE BUTTON [DEPLOY TO HEROKU] THEN YOU CAN ENJOY THIS BOT ✠`
 
 ------------
  
@@ -160,7 +160,7 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
 
 ### <br>   ❖ DEPLOY_KOYEB ❖
 
-`✠ IF YOU HAVE YOUR KOYEB ACCOUNT SO YOU CAN DEPLOY RHODVICK-MD ON KOYEB WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON ✠`
+`✠ IF YOU HAVE YOUR KOYEB ACCOUNT SO YOU CAN DEPLOY RHODVICK-MD ON KOYEB WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB BUT I''LL FIX IT SOON ✠`
 
 ---------
 
@@ -170,7 +170,7 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
 
 ### <br>  ❖ DEPLOY_RAILWAY ❖
 
-`✠ IF YOU HAVE YOUR RAILWAY ACCOUNT SO YOU CAN DEPLOY RHODVICK-MD ON RAILWAY WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON ✠`
+`✠ IF YOU HAVE YOUR RAILWAY ACCOUNT SO YOU CAN DEPLOY RHODVICK-MD ON RAILWAY WITH EASY SET UP. NOTE:-SOME PROBLEMS ON KOYEB DEPLOYMENT BUT I'LL FIX SOON ✠`
 
 --------
 
@@ -178,7 +178,7 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
 
 ---------------
 
-### <br> ❖ MORE DEPLOY METHOD ❖
+### <br> ❖ MORE DEPLOYMENT METHOD ❖
 
 --------
 ### <br>   ❖ DEPLOY_GLITCH ❖
@@ -255,7 +255,7 @@ jobs:
 
 -----------
 
-***THANKS FOR USING RHODVICK-MD WHATSAPP BOT IF U HAVE ANY PROBLEM YOU CAN CONTECT ME NOTE RHODVICK-MD A ANTIBAN WHATSAPP BOT BUT IF YOUR WHATSAPP ACCOUNT BANNED THEN I'M NO RESPONSE ABLE THANKYOU BY 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 𝚃𝙴𝙲𝙷432 KING OF WHATSAPP***
+***THANKS FOR USING RHODVICK-MD WHATSAPP BOT , creator : 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 𝚃𝙴𝙲𝙷***
 
 ------------
 
