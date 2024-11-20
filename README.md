@@ -48,11 +48,6 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
 ![repo views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRhodvick%2FRHODVICK-MD&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false)
 
 
-![forks](https://img.shields.io/github/forks/Rhodvick/RHODVICK-MD?label=Forks&style=social)
-
-
-![stars](https://img.shields.io/github/stars/Rhodvick/RHODVICK-MD?style=social)
-
 
 [![FORK RHODVICK-MD](https://img.shields.io/badge/FORK%20-RHODVICK%20MD-white)](https://github.com/Rhodvick/RHODVICK-MD/fork)
 
