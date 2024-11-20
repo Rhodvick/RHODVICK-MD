@@ -27,8 +27,6 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
 
 <p align="center">
 <a href="https://github.com/Rhodvick/"><img title="Followers" src="https://img.shields.io/github/followers/Rhodvick?color=blue&style=flat-square"></a>
-<a href="https://www.github.com/Rhodvick/RHODVICK-MD/stargazers/"><img title="Stars" src="https://img.shields.io/www.github.com/stars/Rhodvick/RHODVICK-MD?color=blue&style=flat-square"></a>
-<a href="https://www.github.com/Rhodvick/RHODVICK-MD/network/members"><img title="Forks" src="https://img.shields.io/www.github/forks/Rhodvick/RHODVICK-MD?color=blue&style=flat-square"></a>
 </p>
 <p align='center'>
 </p>
@@ -40,8 +38,6 @@ src="https://cardivo.vercel.app/api?name=RHODVICK%20MD%20V2&description=🥂THE%
 
 ------------
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 --------------
 
