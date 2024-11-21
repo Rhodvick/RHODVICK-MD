@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name ✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳",
-    "stop": "pm2 stop ✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳",
-    "restart": "pm2 restart ✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳"
+    "stop": "pm2 stop RHODVICK-MD",
+    "restart": "pm2 restart RHODVICK-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.9",
