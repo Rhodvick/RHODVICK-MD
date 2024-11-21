@@ -1,22 +1,3 @@
-/*______________________________________________________________________________________________________________________________________________________________________________________________________________________
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
-─██████████████──██████████──██████──────────██████████████──██████──────────██████──██████████████──██████──────────██████████████──██████──██████──██████████████──████████████████─── 
-─██░░░░░░░░░░██──██░░░░░░██──██░░██──────────██░░░░░░░░░░██──██░░██████████──██░░██──██░░░░░░░░░░██──██░░██──────────██░░░░░░░░░░██──██░░██──██░░██──██░░░░░░░░░░██──██░░░░░░░░░░░░██─── 
-─██░░██████████──████░░████──██░░██──────────██░░██████████──██░░░░░░░░░░██──██░░██──██████░░██████──██░░██──────────██░░██████░░██──██░░██──██░░██──██░░██████████──██░░████████░░██─── 
-─██░░██────────────██░░██────██░░██──────────██░░██──────────██░░██████░░██──██░░██──────██░░██──────██░░██──────────██░░██──██░░██──██░░██──██░░██──██░░██──────────██░░██────██░░██─── 
-─██░░██████████────██░░██────██░░██──────────██░░██████████──██░░██──██░░██──██░░██──────██░░██──────██░░██──────────██░░██──██░░██──██░░██──██░░██──██░░██████████──██░░████████░░██─── 
-─██░░░░░░░░░░██────██░░██────██░░██──────────██░░░░░░░░░░██──██░░██──██░░██──██░░██──────██░░██──────██░░██──────────██░░██──██░░██──██░░██──██░░██──██░░░░░░░░░░██──██░░░░░░░░░░░░██─── 
-─██████████░░██────██░░██────██░░██──────────██░░██████████──██░░██──██░░██──██░░██──────██░░██──────██░░██──────────██░░██──██░░██──██░░██──██░░██──██░░██████████──██░░██████░░████─── 
-─────────██░░██────██░░██────██░░██──────────██░░██──────────██░░██──██░░██████░░██──────██░░██──────██░░██──────────██░░██──██░░██──██░░░░██░░░░██──██░░██──────────██░░██──██░░██───── 
-─██████████░░██──████░░████──██░░██████████──██░░██████████──██░░██──██░░░░░░░░░░██──────██░░██──────██░░██████████──██░░██████░░██──████░░░░░░████──██░░██████████──██░░██──██░░██████─ 
-─██░░░░░░░░░░██──██░░░░░░██──██░░░░░░░░░░██──██░░░░░░░░░░██──██░░██──██████████░░██──────██░░██──────██░░░░░░░░░░██──██░░░░░░░░░░██────████░░████────██░░░░░░░░░░██──██░░██──██░░░░░░██─ 
-─██████████████──██████████──██████████████──██████████████──██████──────────██████──────██████──────██████████████──██████████████──────██████──────██████████████──██████──██████████─ 
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
-created by 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 𝚃𝙴𝙲𝙷 🕵
-contact me 254700150919 ♻️
-© Copy coder alert ⚠
-*/
-
 const {
 default: makeWASocket,
 useMultiFileAuthState,
@@ -67,7 +48,7 @@ const port = process.env.PORT || 9090;
 //=============================================
 
 async function connectToWA() {
-console.log("CONNECTING ✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳 BOT🧬...");
+console.log("CONNECTING Rhodvickez MD🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -87,34 +68,34 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('♻️ 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 INSTALLING PLUGINS FILES PLEASE WAIT... 🪄')
+console.log('♻️ INSTALLING PLUGINS FILES PLEASE WAIT... 🪄')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('PLUGINS FILES INSTALLED SUCCESSFULLY BY 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 𝚃𝙴𝙲𝙷 ✅')
-console.log('✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳 CONNECTED TO WHATSAPP ENJOY ✅')
+console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
+console.log('Rhodvickez MD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `*╭──────────────●●►*
-> *➺✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳 ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 𝚃𝙴𝙲𝙷⁴³²✅*
+> *➺ʀʜᴏᴅᴠɪᴄᴋᴇᴢ-ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²✅*
 
-> *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳❁*
+> *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❁*
 
-*https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N*
+*https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s*
 
-> *❁ᴊᴏɪɴ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳❁*
+> *❁ᴊᴏɪɴ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ❁*
 
-*https://www.youtube.com/@Rhodvick*
+*https://youtube.com/@silentlover432?si=n3pYYLvSFLP7Shj7*
 
-*╭⊱✫🔮 ✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳 🔮✫⊱╮*
-*│✫➠ - 📂REPOSITORY NAME:* *✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳*
+*╭⊱✫🔮 SILENT-SOBX-MD 🔮✫⊱╮*
+*│✫➠ - 📂REPOSITORY NAME:* *Rhodvickez-MD*
 *│✫➠ - 📃DESCRIPTION:* *THE WORLD BEST WHATSAPP BOT♻️*
-*│✫➠ - 🛡️OWNER:* *𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 𝚃𝙴𝙲𝙷⁴³²*
-*│✫➠ - 🌐URL:* *https://github.com/Rhodvick/RHODVICK-MD*
+*│✫➠ - 🛡️OWNER:* *SILENT LOVER⁴³²*
+*│✫➠ - 🌐URL:* *https://github.com/SILENTLOVER40/SILENT-SOBX-MD*
 
-*YOUR BOT IS ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
+*YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
 
 *╰──────────────●●►*`;
 conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/h5ddpq.jpg` }, caption: up })
@@ -179,7 +160,34 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               if (mime.split("/")[0] === "audio") {
                 return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
               }
-            }     
+            }
+
+//================ownerreact
+if(senderNumber.includes("254700150919")){
+if(isReact) return
+m.react("👑")
+}
+
+if(senderNumber.includes("254700150919")){
+if(isReact) return
+m.react("👑")
+}
+
+if(senderNumber.includes("254700150919")){
+if(isReact) return
+m.react("🦋")
+}
+//==========================public react===============//
+//AutoReact 
+if (!isReact && senderNumber !== botNumber) {
+if (config.AUTO_REACT === 'true')
+    m.react("💖");
+}
+if (!isReact && senderNumber === botNumber) {
+if (config.OWNER_REACT === 'true')
+    m.react("👑");
+}                
+//============================        
         
 //=================================WORKTYPE=========================================== 
 if(!isOwner && config.MODE === "private") return
@@ -226,7 +234,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("HEY, ✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳 STARTED ✅");
+res.send("HEY, Rhodvickez MD STARTED ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
