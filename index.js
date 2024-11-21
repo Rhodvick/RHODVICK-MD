@@ -179,34 +179,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               if (mime.split("/")[0] === "audio") {
                 return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
               }
-            }
-
-//================ownerreact
-if(senderNumber.includes("254700150919")){
-if(isReact) return
-m.react("👑")
-}
-
-if(senderNumber.includes("254700150919")){
-if(isReact) return
-m.react("👑")
-}
-
-if(senderNumber.includes("254700150919")){
-if(isReact) return
-m.react("🦋")
-}
-//==========================public react===============//
-//AutoReact 
-if (!isReact && senderNumber !== botNumber) {
-if (config.AUTO_REACT === 'false')
-    m.react(".");
-}
-if (!isReact && senderNumber === botNumber) {
-if (config.OWNER_REACT === 'false')
-    m.react(".");
-}                
-//============================        
+            }     
         
 //=================================WORKTYPE=========================================== 
 if(!isOwner && config.MODE === "private") return
