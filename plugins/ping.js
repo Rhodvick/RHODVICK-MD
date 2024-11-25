@@ -1,48 +1,27 @@
-const config = require('../config')
-let fs = require('fs')
-const os = require("os")
-const { cmd, commands } = require('../command')
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
-cmd({
-    pattern: "ping2",
-    react: "🤖",
-    alias: ["speed"],
-    desc: "Check bot\'s ping",
-    category: "main",
-    use: '.ping2',
-    filename: __filename
-},
-async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-var inital = new Date().getTime();
-let ping = await conn.sendMessage(from , { text: '*_Zinda huu..._*'  }, { quoted: mek } )
-var final = new Date().getTime();
-await conn.sendMessage(from, { delete: ping.key })
-return await conn.sendMessage(from , { text: '*🔥𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 speed*\n *' + (final - inital) + ' ms* '  }, { quoted: mek } )
-} catch (e) {
-reply('*Error !!*')
-l(e)
-}
-})
+/**
+ Copyright (C) 2024.
+ Licensed under the  GPL-3.0 License;
+ You may not use this file except in compliance with the License.
+ It is supplied in the hope that it may be useful.
+ * @project_name : Rhodvick-Md
+ * @author : RHODVICK TECH <https://github.com/Rhodvick>
+ * @description : Secktor,A Multi-functional whatsapp bot.
+ * @version 0.0.6
+ **/
 
-cmd({
-    pattern: "ping",
-    react: "♻️",
-    alias: ["speed"],
-    desc: "Check bot\'s ping",
-    category: "main",
-    use: '.ping',
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-const startTime = Date.now()
-        const message = await conn.sendMessage(from, { text: '*_🪄Checking 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺 speed..._*' })
-        const endTime = Date.now()
-        const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*♻️ Speed... : ${ping}ms*`}, { quoted: message })
-    } catch (e) {
-        console.log(e)
-        reply(`${e}`)
+//---------------------------------------------------------------------------
+const Secktor = require('../lib')
+Secktor.cmd({
+        pattern: "ping",
+        desc: "To check ping",
+        category: "general",
+        filename: __filename,
+    },
+    async(Void, citel) => {
+        var inital = new Date().getTime();
+        const { key } = await Void.sendMessage(citel.chat, {text: '```CHECKING RHODVICK SPEED!!!```'});
+        var final = new Date().getTime();
+       // await Secktor.sleep(1000)
+       return await Void.sendMessage(citel.chat, {text: '*RHODVICK SPEED IS:*\n *' + (final - inital) + ' ms* ', edit: key});
     }
-})
+);
