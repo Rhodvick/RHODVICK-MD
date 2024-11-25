@@ -15,11 +15,11 @@ async (conn, mek, m, { from, q, reply }) => {
         const fact = response.data.text;
 
         const funFact = `
-👾 *✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳 RANDOM FACT* 👾
+👾 *✦𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺-𝙼𝙳 _Random Fact_* 👾
 
 ${fact}
 
-Isn't that interesting? 😄
+Isn't that interesting? 😄 follow me for more facts  https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N
 `;
 
         return reply(funFact);
