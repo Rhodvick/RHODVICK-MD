@@ -41,10 +41,7 @@
 
 <br>
 
-<a><img src='https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg'/></a>
-<a><img src='https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg'/></a>
  
-
 **𝗛𝗢𝗦𝗧 𝗢𝗡 𝗗𝗜𝗦𝗖𝗢𝗥𝗗**
 <details>
 <summary>CLICK FOR MORE</summary>
@@ -53,10 +50,6 @@
 <a href="https://bot-hosting.net/?aff=1259151615210819614"><img src="https://img.shields.io/badge/SIGNUP%20&%20DEPLOY-gold" alt="Scalingo Deploy" width="150"></a>
 </details
 
-<a><img src='https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg'/></a>
-
-
-<a><img src='https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg'/></a>
 
 
 
@@ -76,8 +69,7 @@
     <img align="left" alt="SIEGRIN | Whastapp" width="86px" src="https://raw.githubusercontent.com/PikaBotz/My_Personal_Space/main/Images/AnyaBot_pics/Anya_v2/Whatsapp.svg" />
   
 
-   
-   <a><img src='https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg'/></a>
+  
 
 
 Enjoy the diverse features of RHODVICK-MD  to enhance your Whatsapp more enjoyable
@@ -85,6 +77,5 @@ Enjoy the diverse features of RHODVICK-MD  to enhance your Whatsapp more enjoyab
 
 ### Credits to:
 - [FortunaMokaya](https://github.com/Fortunatusmokaya) for the founder of this bot's base
-<a><img src='https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg'/></a>
-<a><img src='https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg'/></a>
+
 
