@@ -2,14 +2,10 @@
 <h1 align="center"> RHODVICK-MD </h1>
 
  
-<h1 align="center"> Survival is winning frankline everything else is bullshit,fairy tales spun by people afraid to look life in the eye,do whatever it takes kid ,,survive 😏🙏
+<h1 align="center"> You may not know what is going to happen if you try. but if you don't try, nothing is going to happen
 </h1>
 
 
-
-  <a href="https://ibb.co/N6NMDtn"><img src="https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg" alt="01" border="0" /></a>                     
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
- 
 
 <details>
 <summary>𝐕𝐈𝐄𝐖 𝐋𝐀𝐓𝐄𝐒𝐓 𝐁𝐎𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐇𝐄𝐑𝐄👇</summary>
@@ -26,9 +22,6 @@
 
 <a href="https://github.com/Rhodvick/RHODVICK-MD/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK RHODVICK" width="150"></a>
 
-
-<a><img src='https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg'/></a>
-<a><img src='https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg'/></a>
  <h1 align="center">  𝐆𝐄𝐓 𝐘𝐎𝐔𝐑 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 </h1>
   <a href="https://keith-sessions-pi5z.onrender.com"><img src="https://img.shields.io/badge/Pair%20session%20code-white" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="300"></a>
 
