@@ -3,10 +3,10 @@ module.exports = async (context) => {
 
 try {
 
-if (!text) return m.reply("Where is the YouTube link ? Don't forget to subscribe to https://www.youtube.com/@Rhodvick")
+if (!text) return m.reply("Where is the YouTube link ? Dont forget to subscribe to https://www.youtube.com/@Rhodvick")
 
         let urls = text.match(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch\?v=|v\/|embed\/|shorts\/|playlist\?list=)?)([a-zA-Z0-9_-]{11})/gi);
-        if (!urls) return m.reply('Is this a YouTube link ? Don't tempt RHODVICK😁'');
+        if (!urls) return m.reply('Is this a YouTube link ? Dont tempt RHODVICK😁'');
         let urlIndex = parseInt(text) - 1;
         if (urlIndex < 0 || urlIndex >= urls.length)
                 return m.reply('Invalid URL.');
