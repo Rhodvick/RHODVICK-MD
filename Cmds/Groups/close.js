@@ -5,6 +5,6 @@ module.exports = async (context) => {
         const { client, m } = context;
 
         await client.groupSettingUpdate(m.chat, 'announcement');
-        m.reply('Group closed by RHODVICK until y'all subscribes to https://www.youtube.com/@Rhodvick'".');
+        m.reply('Group closed by RHODVICK until y'all subscribes to https://www.youtube.com/@Rhodvick');
     });
 };
