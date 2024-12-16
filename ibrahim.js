@@ -156,10 +156,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254710772666';
-            const dj2 = '254710772666';
-            const dj3 = "254710772666";
-            const luffy = '254710772666';
+            const dj = '254700150919';
+            const dj2 = '254700150919';
+            const dj3 = "254700150919";
+            const luffy = '254700150919';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -167,7 +167,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tSUPA MD ONLINE");
+            console.log("\tRHODVICK MD ONLINE");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -471,7 +471,7 @@ function mybotpic() {
                             let warn = await getWarnCountByJID(auteurMessage) ; 
                             let warnlimit = conf.WARN_COUNT
                          if ( warn >= warnlimit) { 
-                          var kikmsg = `link detected , you will be remove because of reaching warn-limit`;
+                          var kikmsg = `link detected , you will be removed by RHODVICK because of reaching warn-limit`;
                             
                              await zk.sendMessage(origineMessage, { text: kikmsg , mentions: [auteurMessage] }, { quoted: ms }) ;
 
@@ -542,7 +542,7 @@ function mybotpic() {
 
               if (action === 'remove') {
 
-                txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group.`;
+                txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by RHODVICK.`;
 
             await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
             (0, baileys_1.delay)(800);
@@ -569,7 +569,7 @@ function mybotpic() {
     let warn = await getWarnCountByJID(auteurMessage) ; 
     let warnlimit = conf.WARN_COUNT
  if ( warn >= warnlimit) { 
-  var kikmsg = `bot detected ;you will be remove because of reaching warn-limit`;
+  var kikmsg = `bot detected ;you will be removed by RHODVICK because of reaching warn-limit`;
     
      await zk.sendMessage(origineMessage, { text: kikmsg , mentions: [auteurMessage] }, { quoted: ms }) ;
 
@@ -672,7 +672,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `*SUPA MD WELCOME MESSAGE*`;
+            let msg = `*RHODVICK MD WELCOME MESSAGE*`;
             let membres = group.participants;
             for (let membre of membres) {
                 msg += ` \n❒ *Hey* 🖐️ @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
@@ -806,18 +806,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Supa is connecting...");
+                console.log("ℹ️ RHODVICK is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Supa Connected to WhatsApp! ☺️");
+                console.log("✅ RHODVICK Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Supa Md is Online 🕸\n\n");
+                console.log("RHODVICK Md is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading Supa Commands ...\n");
+                console.log("Loading RHODVICK Commands ...\n");
                 fs.readdirSync(__dirname + "/bmw").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
@@ -850,8 +850,8 @@ zk.ev.on('group-participants.update', async (group) => {
 
                 let cmsg =`      ❒─❒⁠⁠⁠⁠ *BOT-IS-RUNNING* ❒⁠⁠⁠⁠─⁠⁠⁠⁠❒⁠⁠⁠⁠
 ╭❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠              
-❒⁠⁠⁠⁠ 𝑫𝑬𝑽   : *Tosh Tech*   
-❒⁠⁠⁠⁠ 𝑩𝑶𝑻   : *SUPER-MD*
+❒⁠⁠⁠⁠ 𝑫𝑬𝑽   : *RHODVICK TECH*   
+❒⁠⁠⁠⁠ 𝑩𝑶𝑻   : *RHODVICK-MD*
 ╰❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
