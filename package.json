@@ -2,12 +2,12 @@
   "name": "RHODVICK-MD",
   "version": "2.0.0",
   "description": "",
-  "main": "ibrahim.js",
+  "main": "rhodvick.js",
   "scripts": {
-    "test": "node ibrahim.js",
-    "s": "node ibrahim.js",
-    "toshtech": "pm2 start ibrahim.js --attach",
-    "toshtech": "pm2 start ibrahim.js --attach",
+    "test": "node rhodvick.js",
+    "s": "node rhodvick.js",
+    "rhodvicktech": "pm2 start rhodvick.js --attach",
+    "rhodvicktech": "pm2 start rhodvick.js --attach",
     "c": "tsc"
   },
   "keywords": [
