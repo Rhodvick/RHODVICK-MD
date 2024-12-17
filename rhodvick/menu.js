@@ -33,36 +33,38 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭──────────────────❂
-┊❂╭───*RHODVICK-MD*────❂
-┊✺┊ *User* : ${s.OWNER_NAME}
-┊✺┊ *Mode* : ${mode}
-┊✺╰───────────────❂
-┊✺┊ *Time* : ${temps}  
-┊✺┊ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┊❂╰───────────────❂
-╰──────────────────❂ \n\n`;
+╭──────────────────✦
+┊✦╭───*RHODVICK-MD*────✦
+┊✦┊ *User* : ${s.OWNER_NAME}
+┊✦┊ *Mode* : ${mode}
+┊╰───────────────✦
+┊✦┊ *Time* : ${temps}  
+┊✦┊ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┊✦┊ *Channel* : https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N
+┊✦┊ *Youtube* : subscribe https://www.youtube.com/@Rhodvick
+┊╰───────────────✦
+╰──────────────────✦ \n\n`;
  
     let menuMsg=`  
   **RHODVICK MD COMMANDS*
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╭────❂* *${cat}* *❂*`;
+        menuMsg += `*╭────✦* *${cat}* *✦*`;
         for (const cmd of coms[cat]) {
             menuMsg += `  
-*┊❂* ${cmd}`;
+*┊✦* ${cmd}`;
         }
         menuMsg += `
-*╰═════════════❂* \n`
+*╰═════════════✦* \n`
     }
 
     menuMsg += `
 ◇            ◇
-*—————✺✺✺✺—————*
+*—————✦✦✦✦—————*
 
   *RHODVICK-MD*                                         
-*╰═════════════❂*
+*╰═════════════✦*
 `;
 
    var lien = mybotpic();
