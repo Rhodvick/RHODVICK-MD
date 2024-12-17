@@ -818,10 +818,10 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("RHODVICK Md is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading RHODVICK Commands ...\n");
-                fs.readdirSync(__dirname + "/bmw").forEach((fichier) => {
+                fs.readdirSync(__dirname + "/rhodvick").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/bmw/" + fichier);
+                            require(__dirname + "/rhodvick/" + fichier);
                             console.log(fichier + " Installed Successfully✔️");
                         }
                         catch (e) {
@@ -850,7 +850,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
                 let cmsg =`      ❒─❒⁠⁠⁠⁠ *BOT-IS-RUNNING* ❒⁠⁠⁠⁠─⁠⁠⁠⁠❒⁠⁠⁠⁠
 ╭❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠              
-❒⁠⁠⁠⁠ 𝑫𝑬𝑽   : *RHODVICK TECH*   
+❒⁠⁠⁠⁠ 𝑫𝑬𝑽   : *MR RHODVICK*   
 ❒⁠⁠⁠⁠ 𝑩𝑶𝑻   : *RHODVICK-MD*
 ╰❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
