@@ -849,10 +849,12 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
 
                 let cmsg =`      ❒─❒⁠⁠⁠⁠ *BOT-IS-RUNNING* ❒⁠⁠⁠⁠─⁠⁠⁠⁠❒⁠⁠⁠⁠
-╭❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠              
-❒⁠⁠⁠⁠ 𝑫𝑬𝑽   : *MR RHODVICK*   
-❒⁠⁠⁠⁠ 𝑩𝑶𝑻   : *RHODVICK-MD*
-╰❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠`;
+╭✦─✦─✦─✦─⁠⁠⁠⁠              
+✦ 𝑫𝑬𝑽   : *MR RHODVICK*   
+✦⁠⁠⁠⁠ 𝑩𝑶𝑻   : *RHODVICK-MD*
+✦ *CHANNEL* : https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N
+✦ *YOUTUBE* : subscribe https://www.youtube.com/@Rhodvick
+╰✦─✦─✦─✦⁠─✦⁠⁠⁠⁠`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
