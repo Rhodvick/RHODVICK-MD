@@ -69,6 +69,6 @@ Enjoy the diverse features of RHODVICK-MD  to enhance your Whatsapp more enjoyab
 
 
 ### Credits to:
-- [FortunaMokaya](https://github.com/Fortunatusmokaya) for the founder of this bot's base
+- [KING BEGA](https://github.com/Kingbega) for the founder of this bot's base
 
 
