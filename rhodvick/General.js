@@ -93,7 +93,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING RHODVICK, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/KuX57n5cBId0UtTk8u9RSl] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@Rhodvick] \n\n\n*Created By RHODVICK TECH") 
+  repondre("THANK YOU FOR CHOOSING RHODVICK, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/KuX57n5cBId0UtTk8u9RSl] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@Rhodvick] \n\n\n*Created By RHODVICK TECH*") 
   await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING RHODVICK-MD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
