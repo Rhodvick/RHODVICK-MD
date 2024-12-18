@@ -40,10 +40,10 @@ zokou(
 
     // Send the ping results with the updated text and format
     await zk.sendMessage(dest, {
-      text: "🗡️Rhodvick Md⚔️",
+      text: "✦✦RHODVICK MD✦✦",
       contextInfo: {
         externalAdReply: {
-          title: "🗡️RHODVICK-MD⚔️",
+          title: "✦RHODVICK-MD✦",
           body: `${formattedResults.join(" | ")}`,
           thumbnailUrl: "https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg", // Replace with your bot profile photo URL
           sourceUrl: "https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N", // Your channel URL
