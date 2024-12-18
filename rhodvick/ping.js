@@ -27,7 +27,7 @@ async function loading(dest, zk) {
 }
 
 // Command: Ping
-keith(
+rhodvick(
   {
     nomCom: 'ping',
     aliases: ['speed', 'latency'],
