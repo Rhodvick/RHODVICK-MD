@@ -1,4 +1,4 @@
-const { rhodvick } = require("../framework/rhodvick");
+const { zokou } = require("../framework/zokou");
 const speed = require("performance-now");
 
 // Function for delay simulation
@@ -27,7 +27,7 @@ async function loading(dest, zk) {
 }
 
 // Command: Ping
-rhodvick(
+zokou(
   {
     nomCom: 'ping',
     aliases: ['speed', 'latency'],
