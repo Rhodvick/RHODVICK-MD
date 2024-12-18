@@ -37,20 +37,20 @@ const date = moment().format('DD/MM/YYYY');
    *TOSH MD IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/Tosh205/SUPER-MD
+> https://github.com/Rhodvick/RHODVICK-MD
 
 *WHATSAPP GROUP*
-> https://chat.whatsapp.com/K5qhnWJMAZE4lZYnU1Bluk
+> https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N
 ⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *Tosh tech*
-│❒⁠⁠⁠⁠ *DEV2* : *Ibrahim Adams*
+│❒⁠⁠⁠⁠ *DEV1* : *Rhodvick*
+│❒⁠⁠⁠⁠ *DEV2* : *Baraka Bega*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     *Tosh Tech*
+     *Rhodvick Tech*
 
 ❒────────────────────❒`;
 
