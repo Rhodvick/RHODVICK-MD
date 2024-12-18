@@ -11,3 +11,10 @@ zokou({ nomCom: "ping", reaction: "🧒", nomFichier: __filename }, async (dest,
     //console.log("montest")
 });
 console.log("mon test");
+module.exports = async (context) => {
+        const { client, m, spacespeed } = context;
+
+
+await m.reply(`Pong\n${spacespeed.toFixed(4)}ms`)
+
+}
