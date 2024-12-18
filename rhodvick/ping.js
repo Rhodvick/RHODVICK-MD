@@ -7,7 +7,7 @@ zokou({ nomCom: "ping", reaction: "🧒", nomFichier: __filename }, async (dest,
 0.0002ms😉👍";
     let d = '                                                                           𝑯𝒆𝒂𝒍𝒕𝒉 𝒔𝒕𝒂𝒕𝒖𝒔✨';
     let varmess = z + d;
-    var mp4 = 'https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg.mp4';
+    var mp4 = 'https://files.catbox.moe/j8x0so.mp4';
     await zk.sendMessage(dest, { video: { url: mp4 }, caption: varmess });
     //console.log("montest")
 });
