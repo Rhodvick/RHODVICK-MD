@@ -53,7 +53,7 @@ zokou(
         externalAdReply: {
           title: "🗡️RHODVICK-MD⚔️",
           body: `${formattedResults.join(" | ")}`,
-          thumbnailUrl: "https://files.catbox.moe/palnd8.jpg", // Replace with your bot profile photo URL
+          thumbnailUrl: "https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg", // Replace with your bot profile photo URL
           sourceUrl: "https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N", // Your channel URL
           mediaType: 1,
           showAdAttribution: true, // Verified badge
