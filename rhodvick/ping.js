@@ -9,14 +9,6 @@ function delay(ms) {
 
 // New loading animation with different symbols and larger progress bar
 async function loading(dest, zk) {
-  const lod = [
-    "⬛⬛⬜⬜⬜⬜⬛⬛꧁20%꧂",
-    "⬛⬛⬛⬛⬜⬜⬜⬜꧁40%꧂",
-    "⬜⬜⬛⬛⬛⬛⬜⬜꧁60%꧂",
-    "⬜⬜⬜⬜⬛⬛⬛⬛꧁80%꧂",
-    "⬛⬛⬜⬜⬜⬜⬛⬛꧁100%꧂",
-    "*L҉O҉A҉D҉I҉N҉G҉ D҉O҉N҉E҉ ᵗʱᵃᵑᵏᵧₒᵤ ⚔️🗡️*"
-  ];
 
   let { key } = await zk.sendMessage(dest, { text: 'Loading Please Wait' });
 
