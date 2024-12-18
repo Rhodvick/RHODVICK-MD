@@ -65,7 +65,7 @@ zokou({
      │✞  *Stars:* - ${repoInfo.stars}
      │✞  *Forks:* - ${repoInfo.forks}
      │✞  *Release date:* - ${releaseDate}
-     │✞  *Repo:* - ${repoData.html_url}
+     │✞  *Repo:* - *https://github.com/Rhodvick/RHODVICK-MD*
      │✞  *Owner:*   *RHODVICK TECH*
      ╰─────────────────── `;
 
