@@ -1,21 +1,74 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "ping", reaction: "🧒", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-    console.log("Commande saisie !!!s");
-    let z = '*🌍RHODVICK 𝒊𝒔 𝒐𝒏𝒍𝒊𝒏𝒆🌍* 🙏 \n\n ' + "𝑻𝒉𝒆 𝒃𝒐𝒕 𝒊𝒔 𝒄𝒖𝒓𝒓𝒆𝒏𝒕𝒍𝒚 𝒘𝒐𝒓𝒌𝒊𝒏𝒈 𝒐𝒏 𝒂 𝒈𝒐𝒐𝒅 𝒔𝒑𝒆𝒆𝒅😉👍";
-    let d = '                                                                           𝑯𝒆𝒂𝒍𝒕𝒉 𝒔𝒕𝒂𝒕𝒖𝒔✨';
-    let varmess = z + d;
-    var mp4 = 'https://i.ibb.co/p/74421a3c5d94ac0a.jpg.mp4';
-    await zk.sendMessage(dest, { video: { url: mp4 }, caption: varmess });
-    //console.log("montest")
-});
-console.log("mon test");
-module.exports = async (context) => {
-        const { client, m, spacespeed } = context;
+const { rhodvick } = require("../framework/rhodvick");
+const speed = require("performance-now");
 
-
-await m.reply(`Pong\n${spacespeed.toFixed(4)}ms`)
-
+// Function for delay simulation
+function delay(ms) {
+  console.log(`⏱️ delay for ${ms}ms`);
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// New loading animation with different symbols and larger progress bar
+async function loading(dest, zk) {
+  const lod = [
+    "⬛⬛⬜⬜⬜⬜⬛⬛꧁20%꧂",
+    "⬛⬛⬛⬛⬜⬜⬜⬜꧁40%꧂",
+    "⬜⬜⬛⬛⬛⬛⬜⬜꧁60%꧂",
+    "⬜⬜⬜⬜⬛⬛⬛⬛꧁80%꧂",
+    "⬛⬛⬜⬜⬜⬜⬛⬛꧁100%꧂",
+    "*L҉O҉A҉D҉I҉N҉G҉ D҉O҉N҉E҉ ᵗʱᵃᵑᵏᵧₒᵤ ⚔️🗡️*"
+  ];
+
+  let { key } = await zk.sendMessage(dest, { text: 'Loading Please Wait' });
+
+  for (let i = 0; i < lod.length; i++) {
+    await zk.sendMessage(dest, { text: lod[i], edit: key });
+    await delay(500); // Adjust the speed of the animation here
+  }
+}
+
+// Command: Ping
+keith(
+  {
+    nomCom: 'ping',
+    aliases: ['speed', 'latency'],
+    desc: 'To check bot response time',
+    Categorie: 'system',
+    reaction: '⚡',
+    fromMe: 'true',
+  },
+  async (dest, zk) => {
+    // Call the new loading animation without delaying the rest of the bot
+    const loadingPromise = loading(dest, zk);
+
+    // Generate 3 ping results with large random numbers for a more noticeable effect
+    const pingResults = Array.from({ length: 3 }, () => Math.floor(Math.random() * 10000 + 1000));
+
+    // Create larger font for ping results (using special characters for a bigger look)
+    const formattedResults = pingResults.map(ping => `Rhodvick speed  ${ping} 𝐌/𝐒  `);
+
+    // Send the ping results with the updated text and format
+    await zk.sendMessage(dest, {
+      text: "🗡️Rhodvick Md⚔️",
+      contextInfo: {
+        externalAdReply: {
+          title: "🗡️RHODVICK-MD⚔️",
+          body: `${formattedResults.join(" | ")}`,
+          thumbnailUrl: "https://files.catbox.moe/palnd8.jpg", // Replace with your bot profile photo URL
+          sourceUrl: "https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N", // Your channel URL
+          mediaType: 1,
+          showAdAttribution: true, // Verified badge
+        },
+      },
+    });
+
+    console.log("Ping results sent successfully with new loading animation and formatted results!");
+
+    // Ensure loading animation completes after the ping results
+    await loadingPromise;
+  }
+);
+
+// React function if needed for further interaction
+function react(dest, zk, msg, reaction) {
+  zk.sendMessage(dest, { react: { text: reaction, key: msg.key } });
+}
