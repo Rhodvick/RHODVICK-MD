@@ -44,13 +44,6 @@ const date = moment().format('DD/MM/YYYY');
 ┊✦┊ *Youtube* : subscribe https://www.youtube.com/@Rhodvick
 ┊╰───────────────✦
 ╰──────────────────✦ \n\n`;
-                            thumbnailUrl: "https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg",
-                        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
-                        mediaType: 1,
-                        renderLargerThumbnail: true
-                    }
-                }
-            });
  
     let menuMsg=`  
   **RHODVICK MD COMMANDS*
@@ -73,6 +66,13 @@ const date = moment().format('DD/MM/YYYY');
   *RHODVICK-MD*                                         
 *╰═════════════✦*
 `;
+                            thumbnailUrl: "https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg",
+                        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                        mediaType: 1,
+                        renderLargerThumbnail: true
+                    }
+                }
+            });
 
    var lien = mybotpic();
 
