@@ -40,10 +40,17 @@ const date = moment().format('DD/MM/YYYY');
 ┊╰───────────────✦
 ┊✦┊ *Time* : ${temps}  
 ┊✦┊ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┊✦┊ *Channel* : https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N
+┊✦┊ *Group* : https://chat.whatsapp.com/KuX57n5cBId0UtTk8u9RSl
 ┊✦┊ *Youtube* : subscribe https://www.youtube.com/@Rhodvick
 ┊╰───────────────✦
 ╰──────────────────✦ \n\n`;
+                            thumbnailUrl: "https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg",
+                        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                        mediaType: 1,
+                        renderLargerThumbnail: true
+                    }
+                }
+            });
  
     let menuMsg=`  
   **RHODVICK MD COMMANDS*
