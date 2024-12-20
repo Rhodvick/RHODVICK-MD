@@ -849,15 +849,21 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
 
                 let cmsg =`      ❒─❒⁠⁠⁠⁠ *BOT-IS-RUNNING* ❒⁠⁠⁠⁠─⁠⁠⁠⁠❒⁠⁠⁠⁠
-╭✦─✦─✦─✦─⁠⁠⁠⁠              
-✦ 𝑫𝑬𝑽   : *MR RHODVICK*   
+╭✦─✦─✦─✦─✦⁠⁠⁠⁠              
+✦ 𝑫𝑬𝑽   : *RHODVICK TECH*   
 ✦⁠⁠⁠⁠ 𝑩𝑶𝑻   : *RHODVICK-MD*
-✦ *CHANNEL* : https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N
 ✦ *YOUTUBE* : subscribe https://www.youtube.com/@Rhodvick
 ╰✦─✦─✦─✦⁠─✦⁠⁠⁠⁠`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
+                            thumbnailUrl: "https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg",
+                        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                        mediaType: 1,
+                        renderLargerThumbnail: true
+                    }
+                }
+            });
             else if (connection == "close") {
                 let raisonDeconnexion = new boom_1.Boom(lastDisconnect?.error)?.output.statusCode;
                 if (raisonDeconnexion === baileys_1.DisconnectReason.badSession) {
