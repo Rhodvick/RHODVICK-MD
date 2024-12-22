@@ -857,13 +857,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
-                            thumbnailUrl: "https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg",
-                        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
-                        mediaType: 1,
-                        renderLargerThumbnail: true
-                    }
-                }
-            });
+                            
             else if (connection == "close") {
                 let raisonDeconnexion = new boom_1.Boom(lastDisconnect?.error)?.output.statusCode;
                 if (raisonDeconnexion === baileys_1.DisconnectReason.badSession) {
