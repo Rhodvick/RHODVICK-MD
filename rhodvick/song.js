@@ -1,3 +1,5 @@
+
+
 const { zokou } = require("../framework/zokou");
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
@@ -15,7 +17,7 @@ zokou({
   const { ms, repondre, arg } = commandeOptions;
      
   if (!arg[0]) {
-    repondre("wrong!!! Ie. _Play Rhodvick media theme song._");
+    repondre("wrong!!! Ie. _Play hozambe by Beltah ft shifura._");
     return;
   }
 
@@ -36,7 +38,7 @@ zokou({
 *Url :* _${videos[0].url}_
 
 
-_*©𝐌𝐫 Tosh*_`
+_*©𝐞𝐧g𝐳𝐨*_`
        }
 
       
