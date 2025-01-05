@@ -1,5 +1,5 @@
 const axios = require("axios");
-const { zokou } = require(__dirname + "/../framework/zokou");
+const { rhodvick } = require(__dirname + "/../framework/rhodvick");
 const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require('os');
 const moment = require("moment-timezone");
@@ -36,7 +36,7 @@ const fetchGitHubStats = async () => {
     }
 };
 
-zokou({
+rhodvick({
     nomCom: "repo",
     aliases: ["script", "sc"],
     reaction: '⚪',
