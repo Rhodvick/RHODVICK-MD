@@ -1,82 +1,99 @@
-
-
 const { zokou } = require("../framework/zokou");
-const yts = require('yt-search');
-const ytdl = require('ytdl-core');
-const fs = require('fs');
-const yt=require("../framework/dl/ytdl-core.js")
-const ffmpeg = require("fluent-ffmpeg");
-const yts1 = require("youtube-yts");
-//var fs =require("fs-extra")
+const axios = require('axios');
+const ytSearch = require('yt-search');
 
+// Define the command with aliases
 zokou({
   nomCom: "song",
+  aliases: ["play", "ytmp3", "audio", "mp3"],
   categorie: "Search",
-  reaction: "🎶"
-}, async (origineMessage, zk, commandeOptions) => {
-  const { ms, repondre, arg } = commandeOptions;
-     
+  reaction: "🎥"
+}, async (dest, zk, commandOptions) => {
+  const { arg, ms, repondre } = commandOptions;
+
+  // Check if a query is provided
   if (!arg[0]) {
-    repondre("wrong!!! Ie. _Play hozambe by Beltah ft shifura._");
-    return;
+    return repondre("Please provide a song name.");
   }
 
+  const query = arg.join(" ");
+
   try {
-    let topo = arg.join(" ")
-    const search = await yts(topo);
-    const videos = search.videos;
+    // Perform a YouTube search based on the query
+    const searchResults = await ytSearch(query);
 
-    if (videos && videos.length > 0 && videos[0]) {
-      const urlElement = videos[0].url;
-          
-       let infoMess = {
-          image: {url : videos[0]. thumbnail},
-         caption : `\nRHODVICK-MD‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎\n\n*Audio name :* _${videos[0].title}_
-
-*Time :* _${videos[0].timestamp}_
-
-*Url :* _${videos[0].url}_
-
-
-_*©𝐞𝐧g𝐳𝐨*_`
-       }
-
-      
-
-      
-
-      
-       zk.sendMessage(origineMessage,infoMess,{quoted:ms}) ;
-      // Obtenir le flux audio de la vidéo
-      const audioStream = ytdl(urlElement, { filter: 'audioonly', quality: 'highestaudio' });
-
-      // Nom du fichier local pour sauvegarder le fichier audio
-      const filename = 'audio.mp3';
-
-      // Écrire le flux audio dans un fichier local
-      const fileStream = fs.createWriteStream(filename);
-      audioStream.pipe(fileStream);
-
-      fileStream.on('finish', () => {
-        // Envoi du fichier audio en utilisant l'URL du fichier local
-      
-
-     zk.sendMessage(origineMessage, { audio: { url:"audio.mp3"},mimetype:'audio/mp4' }, { quoted: ms,ptt: false });
-        console.log("Envoi du fichier audio terminé !");
-
-     
-      });
-
-      fileStream.on('error', (error) => {
-        console.error('Erreur lors de l\'écriture du fichier audio :', error);
-        repondre('Une erreur est survenue lors de l\'écriture du fichier audio.');
-      });
-    } else {
-      repondre('Aucune vidéo trouvée.');
+    // Check if any videos were found
+    if (!searchResults || !searchResults.videos.length) {
+      return repondre('No video found for the specified query.');
     }
+
+    const firstVideo = searchResults.videos[0];
+    const videoUrl = firstVideo.url;
+
+    // Attempt to download from different APIs
+    let downloadData;
+    let downloadUrl;
+    let videoDetails;
+
+    // Function to get download data
+    const getDownloadData = async (url) => {
+      try {
+        const response = await axios.get(url);
+        return response.data;
+      } catch (error) {
+        console.error('Error fetching data from API:', error);
+        return { success: false };
+      }
+    };
+
+    // Try Gifted API
+    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted`);
+    if (downloadData.success) {
+      downloadUrl = downloadData.result.download_url;
+      videoDetails = downloadData.result;
+    } else {
+      // Try Yasiya API if Gifted fails
+      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
+      if (downloadData.success) {
+        downloadUrl = downloadData.result.download_url;
+        videoDetails = downloadData.result;
+      } else {
+        // Try Dreaded API if both fail
+        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
+        if (downloadData.success) {
+          downloadUrl = downloadData.result.download_url;
+          videoDetails = downloadData.result;
+        }
+      }
+    }
+
+    // Check if a valid download URL was found
+    if (!downloadUrl || !videoDetails) {
+      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    }
+
+    // Prepare the message payload with external ad details
+    const messagePayload = {
+      audio: { url: downloadUrl },
+      mimetype: 'audio/mp4',
+      contextInfo: {
+        externalAdReply: {
+          title: videoDetails.title,
+          body: videoDetails.title,
+          mediaType: 1,
+          sourceUrl: 'https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N',
+          thumbnailUrl: firstVideo.thumbnail,
+          renderLargerThumbnail: false,
+          showAdAttribution: true,
+        },
+      },
+    };
+
+    // Send the download link to the user
+    await zk.sendMessage(dest, messagePayload, { quoted: ms });
+
   } catch (error) {
-    console.error('Erreur lors de la recherche ou du téléchargement de la vidéo :', error);
-    
-    repondre('Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.');
+    console.error('Error during download process:', error);
+    return repondre(`Download failed due to an error: ${error.message || error}`);
   }
 });
