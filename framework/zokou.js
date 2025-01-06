@@ -1,6 +1,6 @@
 var tabCmds = [];
 let cm = [];
-function rhodvick(obj, fonctions) {
+function zokou(obj, fonctions) {
     let infoComs = obj;
     if (!obj.categorie) {
         infoComs.categorie = "General";
@@ -13,4 +13,4 @@ function rhodvick(obj, fonctions) {
     // console.log('chargement...')
     return infoComs;
 }
-module.exports = { rhodvick, Module: rhodvick, cm };
+module.exports = { zokou, Module: zokou, cm };
