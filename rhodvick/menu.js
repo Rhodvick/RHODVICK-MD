@@ -196,7 +196,7 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
                     title: "✦RHODVICK-MD✦",
                     body: "POWERED BY 𝚁𝙷𝙾𝙳𝚅𝙸𝙲𝙺",
                                                 thumbnailUrl: "https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg",
-                        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+                        sourceUrl: "https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N",
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }
