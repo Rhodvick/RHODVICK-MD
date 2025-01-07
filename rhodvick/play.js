@@ -82,7 +82,7 @@ zokou({
           body: videoDetails.title,
           mediaType: 1,
           sourceUrl: 'https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N',
-          thumbnailUrl: firstVideo.thumbnail,
+          thumbnailUrl: 'https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg',
           renderLargerThumbnail: false,
           showAdAttribution: true,
         },
